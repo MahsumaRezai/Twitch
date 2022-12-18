@@ -8,7 +8,6 @@
 .container {
     width: 2vw;
     height: 2vw;
-    justify-content: space-around;
     margin-left: 20px;
 &__text {
     height: 100%;
@@ -61,7 +60,24 @@
     clip-path: polygon(0 40%, 100% 40%, 100% 100%, 0 100%);
  }
   }
-  
+  // header
+  .header{
+      background: #ffffff;
+      border:  1px solid gainsboro;
+      box-shadow: #ccc;
+      height: 100% !important;
+      padding-bottom:10px;
+  }
+  // tittle nav 
+  .title {
+      &__text {
+          color:#0e0e10;;
+          text-decoration: none;
+          font-size: 1.2em;
+          font-family: sans-serif;
+          font-weight: bold;
+      }
+  }
   
   /* Dropdown */
   .logs {
@@ -74,9 +90,6 @@
     flex-wrap: nowrap ;
     gap: 30px;
     margin-top: 20px;
-
-
-
   }
   
   .dropdown {
@@ -85,7 +98,6 @@
   }
   
   .dd-button {
-    display: inline-block;
     padding: 10px 30px 10px 20px;
     background-color: #ffffff;
     white-space: nowrap;
@@ -128,9 +140,6 @@
     font-size: 14px;
     font-family: sans-serif;
     color:gray;
-
-
-
   }
   
   .dd-input + .dd-menu {
@@ -163,5 +172,80 @@
   }
   
  
+// input scetion
+.input-type {
+    display: flex;
+    gap:2px; 
+    width: 60%;
+    margin: 0%;
+    justify-content: center;
 
+
+}
+.input {
+    &__inp{
+        background: gainsboro;
+        flex-grow: 3;
+        height: 40px;
+        width: 350px;
+        border:  1px solid gainsboro;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius:5px; 
+
+
+    }
+}
   
+
+
+// button search
+.button {
+    &__btn {
+        width: 40px;
+        height: 40px;
+        border:  1px solid gainsboro;
+        background: gainsboro;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius:5px; 
+
+    }
+}
+// button log queen
+.content {
+    display: flex;
+    gap: 10px;
+}
+.btn-log {
+    &__login {
+        background-color: gainsboro;
+        border: none;
+        width: 70px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    &__link{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+}
+// singin
+.btn-sign {
+    &__btn {
+        background: #9147ff;
+        border: none;
+        width: 70px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    &__link {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #ffffff;
+
+
+    }
+}
