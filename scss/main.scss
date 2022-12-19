@@ -76,7 +76,13 @@
           font-size: 1.2em;
           font-family: sans-serif;
           font-weight: bold;
+          
       }
+      :hover{
+        color: #9147ff;
+        
+    }
+
   }
   
   /* Dropdown */
@@ -184,11 +190,11 @@
 }
 .input {
     &__inp{
-        background: gainsboro;
+        background: #efeff1;
         flex-grow: 3;
         height: 40px;
         width: 350px;
-        border:  1px solid gainsboro;
+        border:  1px solid #efeff1;
         border-top-left-radius: 5px;
         border-bottom-left-radius:5px; 
 
@@ -203,8 +209,8 @@
     &__btn {
         width: 40px;
         height: 40px;
-        border:  1px solid gainsboro;
-        background: gainsboro;
+        border:  1px solid #efeff1;
+        background: #efeff1;
         border-top-right-radius: 5px;
         border-bottom-right-radius:5px; 
 
@@ -217,7 +223,7 @@
 }
 .btn-log {
     &__login {
-        background-color: gainsboro;
+        background-color: #efeff1;
         border: none;
         width: 70px;
         height: 30px;
@@ -248,4 +254,72 @@
 
 
     }
+}
+
+
+
+
+
+/* main*/
+.main-content {
+ display: flex;
+ flex-direction: row;
+ gap: 200px;
+}
+.main-product {
+    width: 60%;
+}
+// list 
+.main-list {
+    background-color:#efeff1;
+    height: 800px;
+    width: 15%;
+}
+
+// image
+.profile {
+    display: flex;
+    grid-column-gap: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.profile:hover{
+    background-color: gainsboro;
+}
+
+.title-list{
+    margin: 0% auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+     &__text {
+         font-size: 15px;
+         font-family: sans-serif;
+         font-weight: bold;
+
+
+     }
+}
+.img-link {
+    text-decoration: none;
+    color:gray;
+
+}
+.img {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+.flowers {
+    display: flex;
+    column-gap: 10px;
+    justify-content: flex-end;
+    padding-left: 50px;
+    align-items: flex-end;
+&__online {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #eb0400;
+}
 }
