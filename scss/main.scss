@@ -265,15 +265,15 @@
  display: flex;
  flex-direction: row;
  gap: 200px;
+ background-color: #efeff1;
+
 }
-.main-product {
-    width: 60%;
-}
+
 // list 
 .main-list {
-    background-color:#efeff1;
+    background-color:gainsboro;
     height: 800px;
-    width: 15%;
+    width: 20%;
 }
 
 // image
@@ -284,22 +284,23 @@
     padding-top: 20px;
 }
 .profile:hover{
-    background-color: gainsboro;
+    background-color: #efeff1;
 }
 
 .title-list{
     margin: 0% auto;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 95%;
      &__text {
          font-size: 15px;
          font-family: sans-serif;
          font-weight: bold;
-
-
+         padding-top: 15px;
+         padding-bottom: 5px;
      }
 }
+
 .img-link {
     text-decoration: none;
     color:gray;
@@ -322,4 +323,84 @@
     border-radius: 100%;
     background-color: #eb0400;
 }
+}
+//main
+.main-product {
+background-color: #efeff1;
+ width: 100%;
+ background-size: cover;
+}
+.hi-slide {
+    position: relative;
+    width: 754px;
+    height: 290px;
+    margin: 115px auto 0;
+
+}
+.hi-slide .hi-next,
+.hi-slide .hi-prev
+ {
+     position: absolute;
+     top:50%;
+     width: 40px;
+     height: 40px;
+     margin-top: -20px;
+     border-radius: 50px;
+     line-height: 50px;
+     text-align: center;
+     cursor: pointer;
+     background-color: white;
+     color: #0e0e10;
+     transition: all 0.7s;
+     font-size: 20px;
+     font-weight: bold;
+}
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover{
+    opacity: 1;
+    background-color: white;
+
+}
+.hi-slide .hi-prev {
+    left: -70px;
+}
+.hi-slide .hi-prev::before{
+    content: '<'
+
+}
+.hi-slide .hi-next {
+    right: -70px;
+
+}
+
+.hi-slide .hi-next::before {
+    content: '>'
+}
+.hi-slide > ul {
+    list-style: none;
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 0;
+    padding: 0;
+
+}
+.hi-slide > ul > li {
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 147px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 3px solid white;
+    background: #333;
+    cursor: pointer;
+}
+.hi-slide > ul > li > img > video {
+    width: 100%;
+    height: 100%;
+    background-position: center;
 }
