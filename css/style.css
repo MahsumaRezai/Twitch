@@ -272,7 +272,8 @@
 .title-gallery {
   display: flex;
   gap: 2px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-bottom: 10px; }
   .title-gallery__link {
     color: #9147ff;
     font-size: 20px;
@@ -290,4 +291,10 @@
 
 .main-gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  grid-gap: 10px; }
+
+.persoal-image {
+  display: flex;
+  gap: 10px; }

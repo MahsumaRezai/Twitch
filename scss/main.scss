@@ -369,6 +369,7 @@ $font:Tahoma;
     display: flex;
     gap: 2px;
     padding-left: 10px;
+    padding-bottom: 10px;
     &__link {
         color: #9147ff;
         font-size: 20px;
@@ -391,6 +392,16 @@ $font:Tahoma;
 //main gallery row one 
 .main-gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr)
-}
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    grid-gap: 10px;
 
+}
+// personal information
+
+.persoal-image {
+    display: flex;
+    gap: 10px;
+ 
+
+}
