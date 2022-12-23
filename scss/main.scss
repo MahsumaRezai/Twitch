@@ -398,10 +398,80 @@ $font:Tahoma;
 
 }
 // personal information
-
+.container-info {
+    display: flex;
+    gap: 100px;
+    padding-top: 10px;
+}
 .persoal-image {
     display: flex;
     gap: 10px;
- 
+    &__hover:hover {
+        transform: translate(5px)
+    }
+}
+
+#img-style:hover {
+box-shadow: 7px 7px gold;
+}
+#img-style-one:hover {
+    box-shadow: 7px 7px #9147ff;
+}
+#img-style-two:hover {
+    box-shadow: 7px 7px red;
+}
+#img-style-three:hover {
+    box-shadow: 7px 7px tomato;
+}
+
+
+.image-info {
+    display: flex;
+    gap: 10px;
+    
 
 }
+.img-info {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+.img-info-four {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.image-infor {
+    margin-left: -60px
+}
+// button
+.button {
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+    flex-direction: row;
+
+    &__english {
+        background-color:gainsboro;
+        width: 80px;
+        height: 20px;
+        border: none;
+        border-radius: 20px;
+    }
+    &__link {
+        color: #848494;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    &__add {
+        background-color:gainsboro;
+        width: 70px;
+        height: 20px;
+        border: none;
+        border-radius: 20px; 
+    }
+    
+}
+// line 

@@ -295,6 +295,73 @@
   width: 90%;
   grid-gap: 10px; }
 
+.container-info {
+  display: flex;
+  gap: 100px;
+  padding-top: 10px; }
+
 .persoal-image {
   display: flex;
   gap: 10px; }
+  .persoal-image__hover:hover {
+    transform: translate(5px); }
+
+#img-style:hover {
+  box-shadow: 7px 7px gold; }
+
+#img-style-one:hover {
+  box-shadow: 7px 7px #9147ff; }
+
+#img-style-two:hover {
+  box-shadow: 7px 7px red; }
+
+#img-style-three:hover {
+  box-shadow: 7px 7px tomato; }
+
+.image-info {
+  display: flex;
+  gap: 10px; }
+
+.img-info {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px; }
+
+.img-info-four {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px; }
+
+.image-infor {
+  margin-left: -60px; }
+
+.button {
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+  flex-direction: row; }
+  .button__english {
+    background-color: gainsboro;
+    width: 80px;
+    height: 20px;
+    border: none;
+    border-radius: 20px; }
+  .button__link {
+    color: #848494;
+    text-decoration: none;
+    font-weight: bold; }
+  .button__add {
+    background-color: gainsboro;
+    width: 70px;
+    height: 20px;
+    border: none;
+    border-radius: 20px; }
+
+.show-more__move-up {
+  margin-bottom: 2rem;
+  margin-top: -2rem; }
+
+.fwdLsz {
+  display: flex !important;
+  text-align: center !important;
+  padding-top: 1rem !important; }
