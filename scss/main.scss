@@ -183,7 +183,7 @@ $font:Tahoma;
 // input scetion
 .input-type {
     display: flex;
-    gap:2px; 
+    gap:3px; 
     width: 60%;
     margin: 0%;
     justify-content: center;
@@ -203,8 +203,6 @@ $font:Tahoma;
 
     }
 }
-  
-
 
 // button search
 .button {
@@ -215,7 +213,8 @@ $font:Tahoma;
         background: #efeff1;
         border-top-right-radius: 5px;
         border-bottom-right-radius:5px; 
-
+        margin-top: -5px;
+    
     }
 }
 // button log queen
@@ -233,9 +232,9 @@ $font:Tahoma;
     }
     &__link{
         text-decoration: none;
-        font-weight: bold;
         font-size: 14px;
-        font-family: $font;
+        font-family: sans-serif;
+        color: #000000;
     }
 }
 // singin
@@ -248,7 +247,7 @@ $font:Tahoma;
         border-radius: 5px;
     }
     &__link {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
         font-family: $font;
         text-decoration: none;
@@ -272,7 +271,7 @@ $font:Tahoma;
 // list 
 .main-list {
     background-color:gainsboro;
-    height: 800px;
+    height: 1200px;
     width: 20%;
 }
 
@@ -305,6 +304,8 @@ $font:Tahoma;
 .img-link {
     text-decoration: none;
     color:gray;
+    font-family: sans-serif;
+    font-size: 14px;
 
 }
 .img {
@@ -344,10 +345,11 @@ $font:Tahoma;
     z-index: 4;
     margin-top: 120px;
     margin-left: -150px;
-    margin-right: -150px;
+    margin-right: -200px;
    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .box-two {
+    position: relative;
     z-index: 5;
     margin-left: -30px;
     margin-right: -30px;
@@ -360,7 +362,7 @@ $font:Tahoma;
 .box-three {
     z-index: 3;
     margin-top: 120px;
-    margin-left: -160px;
+    margin-left: -250px;
     margin-right: -150px;
    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -371,7 +373,7 @@ $font:Tahoma;
     padding-left: 10px;
     padding-bottom: 10px;
     &__link {
-        color: #9147ff;
+        color: #5c16c5;
         font-size: 20px;
         font-weight: bold;
         font-family: sans-serif;
@@ -496,7 +498,7 @@ hr.divider {
     color:#9147ff;
     text-align: center;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     font-family: sans-serif;
 }
 hr {
@@ -512,3 +514,51 @@ hr {
 		display: none;
 	}
 }
+// title bar
+.title-bar {
+    padding-left: 10px;
+    padding-bottom: 15px;
+
+    &__link {
+        color: #5c16c5;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    &__text {
+        font-size:20px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #000000;
+    }
+}
+// section gallery 
+ #img-gallery:hover {
+     box-shadow: 5px 5px #9147ff;
+ }
+ #img-gallery {
+     min-height: 100%;
+     max-width: 100%;
+ }
+ .section-gallery-two {
+    display: flex;
+    gap: 10px;
+    width: 98%;
+    margin: 0% auto;
+    justify-content: center;
+    align-items: center;
+    &__hover:hover {
+        transform: translate(5px)
+    }
+
+ }
+ .text {
+     font-family: sans-serif;
+     font-size: 15px;
+     font-weight: 600;
+ }
+ .text:hover {
+     color: #5c16c5;
+
+ }
