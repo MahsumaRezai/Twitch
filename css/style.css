@@ -189,7 +189,7 @@
 
 .main-list {
   background-color: gainsboro;
-  height: 1200px;
+  height: 1700px;
   width: 20%; }
 
 .profile {
@@ -436,3 +436,173 @@ hr {
 
 .text:hover {
   color: #5c16c5; }
+
+.viewers {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 20px;
+  padding-top: 10px;
+  line-height: 22px;
+  padding-bottom: 20px; }
+  .viewers__name {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0e0e10; }
+  .viewers__name:hover {
+    color: #9147ff; }
+  .viewers__link {
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 0.9em; }
+
+.veiew-btn__button {
+  background: gainsboro;
+  border: none;
+  border-radius: 20px;
+  width: 40px;
+  height: 20px; }
+
+.veiew-btn__link {
+  font-size: 13px;
+  color: #848494;
+  text-decoration: none;
+  font-weight: bold; }
+
+.veiew-btn__btn {
+  background: gainsboro;
+  border: none;
+  border-radius: 20px;
+  width: 60px;
+  height: 20px; }
+
+.veiew-btn__bt {
+  background: gainsboro;
+  border: none;
+  border-radius: 20px;
+  width: 40px;
+  height: 20px; }
+
+.veiew-btn__btu {
+  background: gainsboro;
+  border: none;
+  border-radius: 20px;
+  width: 60px;
+  height: 20px; }
+
+.line {
+  border: 0.1px solid gray;
+  opacity: 0.1;
+  margin: 0% auto;
+  justify-content: center;
+  width: 95%; }
+
+.images {
+  display: flex;
+  gap: 10px;
+  padding-top: 50px; }
+
+.image-log {
+  border: 1px solid #5c16c5;
+  background: #5c16c5;
+  width: 250px;
+  height: 45px;
+  display: flex;
+  border-radius: 8px; }
+  .image-log__title {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0% auto;
+    padding-top: 5px;
+    padding-right: 50px; }
+  .image-log__title:hover {
+    color: #9147ff; }
+
+#log-photos {
+  height: 70px;
+  margin-top: -10px;
+  padding-right: 12px; }
+
+.title-profile {
+  padding-top: 20px; }
+  .title-profile__text {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000000; }
+
+.profile-section-three {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6px;
+  padding-top: 20px; }
+  .profile-section-three__hover:hover {
+    transform: translate(5px); }
+
+.viewer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding-top: 10px; }
+  .viewer__name {
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold; }
+  .viewer__link {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 15px; }
+
+.veie-btn {
+  padding-bottom: 30px;
+  padding-top: 10px; }
+  .veie-btn__button {
+    background: gainsboro;
+    border: none;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px; }
+  .veie-btn__link {
+    color: gray;
+    text-decoration: none; }
+  .veie-btn__butt {
+    background: gainsboro;
+    border: none;
+    border-radius: 20px;
+    width: 60px;
+    height: 20px; }
+  .veie-btn__bt {
+    background: gainsboro;
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 20px; }
+  .veie-btn__btn {
+    background: gainsboro;
+    border: none;
+    border-radius: 20px;
+    width: 60px;
+    height: 20px; }
+  .veie-btn__btu {
+    background: gainsboro;
+    border: none;
+    border-radius: 20px;
+    width: 60px;
+    height: 20px; }
+
+#url {
+  padding-right: 100px; }
+
+.amazon-log {
+  width: 80%;
+  margin: 0% auto;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  display: flex; }
+  .amazon-log__log {
+    max-width: 150px; }
