@@ -1,0 +1,110 @@
+// button
+.button {
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    flex-direction: row;
+    &__english {
+        background-color:gainsboro;
+        width: 80px;
+        height: 20px;
+        border: none;
+        border-radius: 20px;
+        @media screen and (max-width:414px) {
+            width: 60px;
+        }
+    }
+    &__link {
+        color: #848494;
+        text-decoration: none;
+        font-size: 13px;
+        @media screen and (max-width:1280px) {
+            font-size: 12px;  
+        }
+        @media screen and (max-width:555px) {
+            font-size: 10px;
+        }
+        @media screen and (max-width:414px) {
+            font-size: 10px;
+        }
+    }
+    &__add {
+        background-color:gainsboro;
+        width: 70px;
+        height: 20px;
+        border: none;
+        border-radius: 20px; 
+        @media screen  and (max-width:555px){
+            display: none; 
+        }
+    }
+    @media screen  and (max-width:555px){
+        gap: 2px; 
+    }
+    @media screen and (max-width:412px) {
+        margin-top: -20px;
+        
+    }
+   
+}
+// button veiewrs
+.veiew-btn {
+    &__button {
+        background:gainsboro;
+        border: none;
+        border-radius: 20px;
+        width: 40px;
+        height: 20px;
+    }
+    &__link {
+        font-size: 13px;
+        color:#848494;
+        text-decoration: none;
+        font-weight: bold;
+        @media screen and (max-width:770px) {
+            font-size: 10px;
+        }
+        @media screen and (max-width:555px) {
+            font-size: 10px;
+        }
+    }
+}
+.veiew-btn {
+    &__btn {
+        background: gainsboro;
+        border: none;
+        border-radius: 20px;
+        width: 60px;
+        height: 20px;
+    }
+    &__bt {
+       background: gainsboro;
+       border: none;
+       border-radius: 20px;
+       width: 40px;
+       height: 20px; 
+    }
+    &__btu {
+       background: gainsboro;
+       border: none;
+       border-radius: 20px;
+       width: 60px;
+       height: 20px;  
+    }
+}
+.title-profile {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    &__text {
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #000000;
+    }
+    @media screen  and (max-width:1024px){
+        display: none;
+        
+    }
+}
