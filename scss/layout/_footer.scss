@@ -5,11 +5,14 @@
     margin: 0% auto;
     justify-content: center;
     align-items: center;
-       padding: 50px;
-       display: flex;
-       
+     padding: 50px;
+     display: flex;
     &__log {
        max-width: 150px;
+    }
+    @media screen and (max-width:395px) {
+        padding-top:120px;
+        
     }
 }
 // footer 
@@ -65,6 +68,10 @@
         height: 20px;
     
    }
+   @media screen and( max-width:390px) {
+    display: none
+ 
+ }
    @media screen and( max-width:360px) {
    display: none
 

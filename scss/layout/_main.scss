@@ -172,11 +172,15 @@
     margin-top: 5px;
 }
    @media screen  and (max-width:412px){
-       width: 330px;
+       width: 380px;
        margin-top: 10px;
    }
    @media screen  and (max-width:360px){
     width: 330px;
+    margin-top: 2px;
+}
+@media screen  and (max-width:360px){
+    width: 250px;
     margin-top: 2px;
 }
 }
@@ -236,7 +240,7 @@
     }
 }
 
-//
+// image row one 
 .con-img {
     display: flex;
     gap: 15px;
@@ -246,14 +250,12 @@
     @media screen  and (max-width:1024px){
         gap: 1px;
         padding-left: 20px;
-        padding-bottom: 20px;
-        
+        padding-bottom: 20px;   
     }
 
     @media screen  and (max-width:770px){
         gap: 1px;
-        padding-left: 10px;
-        
+        padding-left: 10px;  
     }
 }
 .image-container {
@@ -263,15 +265,16 @@
     position: relative;
     @media screen and (max-width:1024px) {
         height: 100px;
-        background: none;
-        
+        background: none;  
     }  
         @media screen and (max-width:770px) {
             height: 100px;
-            background: none;
-            
+            background: none; 
         }  
-    
+        @media screen  and (max-width:450px){
+            display: none;
+            
+        }
   }
   
   .image-container:hover img {
@@ -297,9 +300,7 @@
     @media screen and (max-width:770px) {
         width: 90%;
         transform: none  
-    }
-   
-   
+    } 
   }
   
   .top-side {
@@ -348,7 +349,6 @@
         background: none;
     }
   }
-  
   .image-container:hover .left-side {
     transform: skewY(40deg) translateX(-10px);
     @media screen and (max-width:770px) {
@@ -372,8 +372,14 @@
     height: 100%;
     width: 10px;
     background-color: #F8F8F8;
+    @media screen and (max-width:1024) {
+        transform: none;
+        background: none;
+        
+    }
     @media screen and (max-width:770px) {
         transform: none;
+        
     }
   }
 
@@ -391,10 +397,13 @@
         justify-content: space-between;
         margin-left: -30px;
     }
+    @media screen  and (max-width:450px){
+        display: none;
+        
+    }
 }
 .profile-two-updat {
-    margin-left: -20px;
-   
+    margin-left: -20px; 
 }
 // button section
 .button-section {
@@ -428,6 +437,19 @@
    grid-row-gap: 250px;
     
 }
+@media screen and (max-width:414px) {
+    margin-top: -50px;
+    grid-row-gap:200px;
+    
+}
+@media screen  and (max-width:390px){
+    padding-left: 20px;
+    
+}
+@media screen  and (max-width:393px){
+    padding-left: 40px;
+    
+}
 }
 #img-two {
     width: 100%;
@@ -437,8 +459,7 @@
     padding-bottom: 10px;
     @media screen and (max-width:770px) {
         width: 90%;
-        transform: none 
-        
+        transform: none    
     }
 }
 .image-container-two {
@@ -451,8 +472,7 @@
         font-size: 15px;
         font-weight: 600;
         @media screen  and (max-width:1024px){
-            font-size: 10px;
-            
+            font-size: 10px;   
         }
     }
     &__link {
@@ -461,8 +481,7 @@
        font-family: sans-serif;
        font-size: 0.9em;
        @media screen  and (max-width:1024px){
-        font-size: 0.6em;
-        
+        font-size: 0.6em;  
     }
     }
     @media screen  and (max-width:770px){
@@ -470,7 +489,6 @@
         background: none
     }
   }
-  
   .image-container-two:hover img {
     transform: translate(-10px, -10px)
   }
