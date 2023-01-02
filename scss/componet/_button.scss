@@ -56,12 +56,19 @@
         border-radius: 20px;
         width: 40px;
         height: 20px;
+        @media screen and (max-width:1024px) {
+            width: 30px;
+            height: 15px;
+        }
     }
     &__link {
         font-size: 13px;
         color:#848494;
         text-decoration: none;
         font-weight: bold;
+        @media screen and (max-width:1024px) {
+            font-size: 10px;
+        }
         @media screen and (max-width:770px) {
             font-size: 10px;
         }

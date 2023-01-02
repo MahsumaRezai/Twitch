@@ -45,6 +45,10 @@ hr {
     margin: 0% auto;
     justify-content: center;
     width: 95%;
+    @media screen and (max-width:1500px) {
+        display: none;
+        
+    }
 }
 #linear {
 margin-top: 50px;

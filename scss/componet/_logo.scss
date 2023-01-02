@@ -9,7 +9,13 @@
     padding-left: 10px;
     padding-top: 40px;
     @media screen  and (max-width:1024px){
+        grid-template-columns: repeat(4 , 1fr);
+        padding-top: 50px;
+        margin-left: -7px;
+    }
+    @media screen  and (max-width:770px){
         grid-template-columns: repeat(3 , 1fr);
+        padding-top: 150px;
     }
     @media screen and (max-width:770px) {
         margin-left: -10px;
